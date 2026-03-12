@@ -131,7 +131,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 </head>
 <body>
     <div class="formulario">
-        <h1>FORMULARIO FELIPE</h1>
+        <h1>FORMULARIO FELIPE modificadddddddddddddddddddddd</h1>
 
         <?php if ($mensaje_exito): ?>
             <div class="alerta alerta-exito"><?= htmlspecialchars($mensaje_exito) ?></div>
@@ -162,7 +162,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             </div>
 
             <div class="campo">
-                <label for="mensaje">Mensaje *</label>
+                <label for="mensaje">Mensaje modificaddddddddddddddddddddd*</label>
                 <textarea id="mensaje" name="mensaje" required><?= htmlspecialchars($mensaje ?? '') ?></textarea>
             </div>
 
